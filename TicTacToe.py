@@ -44,9 +44,9 @@ class Tic:
              1   2   3         
              
          1  {}|{}|{}
-            ___+___+___
+            ---+---+---
          2  {}|{}|{}
-            ___+___+___
+            ---+---+---
          3  {}|{}|{}
                     Player: {}
         """.format(*[dct[self.board[i][j]] for i in range(3) for j in range(3)], dct2[self.player])
